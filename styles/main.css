@@ -1,0 +1,56 @@
+.start-panel {
+    display: grid;
+    grid-template-columns: 50px 170px 1fr;
+}
+.start-panel__icons {
+    display: grid;
+    grid-template-rows: 1fr repeat(5, 50px);
+}
+.start-panel__grid {
+    display: grid;
+    grid-template-areas:
+    "office other"
+    "web other"
+    ;
+    grid-auto-rows: max-content;
+}
+.apps--office {
+    grid-area: office;
+}
+.apps--web {
+    grid-area: web;
+}
+.apps--other {
+    grid-area: other;
+}
+.apps__grid {
+    display: grid;
+    
+}
+.app--g2x2 {
+
+}
+.app--g2x1 {
+
+}
+.app--g1x2 {
+
+}
+.app--off-3 {
+
+}
+.app--off-4 {
+
+}
+.app--off-5 {
+
+}
+.app--in-3 {
+
+}
+.app--fun-2 {
+
+}
+.app--fun-3 {
+
+}
